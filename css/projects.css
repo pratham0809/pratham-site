@@ -1,0 +1,38 @@
+/*projects.html*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root{
+    --primary-color: #9333ea;
+    --dark-gray:#6b7280;
+    --off-white:#f3f4f6
+}
+
+.list-non-bullet .container-heading{
+    margin-block-start: 0;
+    margin-block-end:0;
+    font-weight: bolder;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.list-non-bullet .container-link{
+    margin: 0% 3%;
+    border-radius: 2rem;
+}
+
+.list-non-bullet .container-date{
+    color: var(--dark-gray);
+}
+
+.container p{
+    margin-block-end: 2rem;
+}
+
+#projects{
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    padding-inline-start: 0;
+    display: flex;
+    list-style-type: none;
+    flex-direction: column-reverse;
+}
+
